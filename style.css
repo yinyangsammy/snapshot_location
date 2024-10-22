@@ -21,16 +21,18 @@ h1 {
 }
 
 #tagline {
-	font-size: 2.25rem;
-	font-weight: bold;
-	color: rgb(254, 150, 52);
+	font-size: 1.75rem;
+	color: white;
 	letter-spacing: 0.5rem;
 	margin: 2%;
 	text-shadow: 1px 0 #fff, -1px 0 #fff, 0 1px #fff, 0 -1px #fff,
                1px 1px #fff, -1px -1px #fff, 1px -1px #fff, -1px 1px #fff;
-	border-radius: 50%;
-	background-color: bisque;
-			}
+	padding: 0.75% 0%;
+	border-radius: 45%;
+	background: rgb(249,68,62);
+	background: radial-gradient(circle, rgba(249,68,62,1) 33%, rgba(249,136,61,1) 66%, rgba(249,196,61,1) 100%);
+	opacity: 0.9;			
+}
 
 h2 {
 	font-size: xx-large;
